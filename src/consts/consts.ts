@@ -1,2 +1,1 @@
 export const MIN_CUSTOM_NODE_SIZE = 80;
-export const MIN_ANNOTATION_NODE_SIZE = 50;
