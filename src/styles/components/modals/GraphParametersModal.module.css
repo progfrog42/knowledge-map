@@ -1,0 +1,31 @@
+
+.modal {
+    width: 500px;
+}
+
+.block {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.blockName {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 0 5px;
+    top: 0;
+    left: 8px;
+    transform: translateY(-51%);
+}
+
+.inputCheckLine {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

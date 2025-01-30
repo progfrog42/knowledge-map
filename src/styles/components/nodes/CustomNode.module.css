@@ -1,0 +1,36 @@
+
+.nodeWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.node {
+    position: relative;
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.selectedNode {
+    outline: 2px solid var(--color-1);
+    box-sizing: border-box;
+}
+
+.label {
+    position: absolute;
+    top: calc(100% + 8px);
+    font-size: 14px;
+    text-align: center;
+}
+
+.nodeImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    border-radius: 10px;
+}

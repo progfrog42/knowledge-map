@@ -1,0 +1,14 @@
+
+.buttonWrapper {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 10;
+}
+
+.buttonSaveGraph {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 8px;
+}

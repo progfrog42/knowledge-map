@@ -1,0 +1,44 @@
+
+.contextMenuAnimationWrapper {
+    position: absolute;
+    background-color: white;
+    z-index: 111;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.contextMenu {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.separator {
+    height: 1px;
+    margin: 2px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menuButton {
+    text-align: left;
+    background-color: transparent;
+    color: black;
+    padding: 5px 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 6px;
+    font-size: 11px;
+}
+
+.menuButton:hover {
+    color: white;
+    background-color: var(--color-1);
+}
+
+.image {
+    width: 14px;
+    aspect-ratio: 1;
+}

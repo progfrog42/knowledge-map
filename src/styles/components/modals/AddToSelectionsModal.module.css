@@ -1,0 +1,55 @@
+
+.modal {
+    width: 600px;
+    height: 400px;
+}
+
+.selectionsList {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: 1px solid var(--color-1);
+    padding: 10px 3px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.selectionBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.itemLine {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.arrowButton {
+    background-color: transparent;
+    padding: 0;
+    height: 24px;
+}
+
+.arrowSvg {
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.icon {
+    width: 18px;
+    aspect-ratio: 1;
+}
+
+.selectionName {
+    font-weight: bold;
+}
+
+.sublistLine {
+    padding-left: 50px;
+}

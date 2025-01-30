@@ -1,0 +1,66 @@
+.controlTabs {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    gap: 10px;
+}
+
+.controlLine {
+    display: flex;
+    gap: 10px;
+}
+
+.controlLineSection {
+    display: flex;
+    gap: 4px;
+}
+
+.controlTabButton {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+}
+
+.imageSize {
+    width: 18px;
+}
+
+.buttonSvg {
+    padding: 0;
+    height: 30px;
+    aspect-ratio: 1;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectedButton {
+    outline: 0.2rem outset var(--color-1)
+}
+
+.controlTabSvg {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.buttonListItem {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 8px;
+    text-wrap: nowrap;
+    background-color: transparent;
+    color: black;
+}
+
+.buttonListItem:hover {
+    background-color: var(--color-1);
+    color: white;
+}

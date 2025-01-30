@@ -1,0 +1,43 @@
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 112;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalComponent {
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    z-index: 112;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headerLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.headerText {
+    font-size: 18px;
+    margin: 0;
+}
+
+.closeButton {
+    background: none;
+    padding: 0;
+}
+
+.closeSvg {
+    width: 24px;
+    aspect-ratio: 1;
+}

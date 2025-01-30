@@ -1,0 +1,55 @@
+
+.dropdownWrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-2);
+}
+
+.buttonStyle {
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.buttonStyle:active {
+    transform: scale(1) !important;
+}
+
+.ulStyles {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 4px;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.li {
+    padding: 10px;
+    transition: all .2s;
+    font-size: 14px;
+}
+
+.li:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, .1);
+}

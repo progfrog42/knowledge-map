@@ -1,0 +1,14 @@
+
+.annotationContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+
+.annotationNodeSelected {
+    outline: 1px solid var(--color-1);
+    box-sizing: border-box;
+}

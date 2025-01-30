@@ -1,0 +1,61 @@
+
+.managerWrapper {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    z-index: 10;
+}
+
+.buttonOpen {
+    padding: 1px !important;
+}
+
+.buttonOpen:active {
+    transform: none !important;
+}
+
+.chevronSvg {
+    width: 30px;
+    fill: white;
+}
+
+.graphMangerBlock {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    overflow: hidden;
+}
+
+.layouts {
+    display: flex;
+    width: 300px;
+    padding: 20px;
+}
+
+.pText {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.line {
+    display: flex;
+    white-space: nowrap;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.inputMargin {
+    margin-top: 20px;
+}
+
+.buttonMarginAuto {
+    margin-top: auto;
+}
+
